@@ -4,6 +4,8 @@
 
 This Flutter-based Voice Assistant app allows users to interact with an AI-powered assistant through voice commands. The app provides functionalities for recording voice, processing audio, and fetching responses from an API.
 
+API Github link: https://github.com/US2002/voice_assistant
+
 ## Features
 
 - **Permission Handling**: The app requests microphone permissions and navigates to the home page if granted, ensuring a seamless user experience.
