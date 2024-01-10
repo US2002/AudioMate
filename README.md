@@ -18,6 +18,14 @@ This Flutter-based Voice Assistant app allows users to interact with an AI-power
 - `AudioManager.dart`: Handles audio recording functionalities using Flutter Sound library.
 - `apiHandler.dart`: Manages API communication for sending audio and fetching AI-generated responses.
 
+
+## Screenshots
+
+![App Screenshot](https://github.com/US2002/AudioMate/blob/main/assets/main.jpg)
+![App Screenshot](https://github.com/US2002/AudioMate/blob/main/assets/listening.jpg)
+![App Screenshot](https://github.com/US2002/AudioMate/blob/main/assets/fetching.jpg)
+![App Screenshot](https://github.com/US2002/AudioMate/blob/main/assets/playing.jpg)
+
 ## Usage
 
 1. **Setup**: Ensure Flutter environment is set up.
