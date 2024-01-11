@@ -17,9 +17,8 @@ class HomePage extends StatefulWidget {
 class _HomePageState extends State<HomePage> {
   //! Audio Manager
   //! BASE URL HERE
-  ApiManager apiManager = ApiManager(
-      url:
-          'https://eeec-2405-201-6804-11cd-4026-ed0c-f6df-6ec0.ngrok-free.app');
+  ApiManager apiManager =
+      ApiManager(url: 'https://piranha-vocal-loudly.ngrok-free.app');
 
   AudioManager audioManager = AudioManager();
 
