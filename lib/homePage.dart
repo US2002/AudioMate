@@ -17,8 +17,10 @@ class HomePage extends StatefulWidget {
 class _HomePageState extends State<HomePage> {
   //! Audio Manager
   //! BASE URL HERE
-  ApiManager apiManager =
-      ApiManager(baseUrl: 'https://us2002.pythonanywhere.com');
+  ApiManager apiManager = ApiManager(
+      url:
+          'https://eeec-2405-201-6804-11cd-4026-ed0c-f6df-6ec0.ngrok-free.app');
+
   AudioManager audioManager = AudioManager();
 
   //! Controllers
@@ -70,6 +72,7 @@ class _HomePageState extends State<HomePage> {
       // print('Failed to upload audio: $e');
       setState(() {
         response = 'Failed to upload audio: $e';
+        reset();
       });
     }
   }
@@ -85,6 +88,7 @@ class _HomePageState extends State<HomePage> {
     } catch (e) {
       setState(() {
         response = 'Getting AI response $e';
+        reset();
       });
     }
   }
