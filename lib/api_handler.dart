@@ -5,9 +5,11 @@ import 'package:http/http.dart' as http;
 class ApiManager {
   final String url;
 
-  ApiManager({required this.url});
+  ApiManager({required this.url}) {
+    isUrlActive(url);
+  }
 
-  String baseUrl = "";
+  String baseUrl = "https://us2002.pythonanywhere.com";
 
   void isUrlActive(String a) async {
     try {
